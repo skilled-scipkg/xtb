@@ -1,0 +1,90 @@
+{
+  "compiled_package_id": "xtb",
+  "evidence": {
+    "core_skills": [
+      "xtb-build-and-install",
+      "xtb-xcontrol-7",
+      "xtb-inputs-and-modeling"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/xtb-build-and-install.md",
+      "skills/.evidence/xtb-xcontrol-7.md",
+      "skills/.evidence/xtb-inputs-and-modeling.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "cmake",
+      "man",
+      "meson"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Primary user-facing docs in man/*.adoc; build guides in cmake/README.adoc and meson/README.adoc.",
+      "No dedicated tutorials/ directory; sample input files are under assets/inputs.",
+      "API example code exists in test/api/c_api_example.c alongside test coverage."
+    ],
+    "package_name": "xtb",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "include",
+      "python",
+      "src"
+    ],
+    "test_dirs": [
+      "test"
+    ],
+    "tutorial_dirs": [
+      "assets/inputs"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/xtb-xtb",
+  "validation": {
+    "core_skills_checked": [
+      "xtb-xcontrol-7",
+      "xtb-inputs-and-modeling",
+      "xtb-build-and-install"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/xtb-xtb/skills/xtb-xcontrol-7/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/xtb-xtb/skills/xtb-inputs-and-modeling/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/xtb-xtb/skills/xtb-build-and-install/SKILL.md: playbook missing required element containing 'convergence/validation'."
+    ],
+    "index_skills": [
+      "xtb-index"
+    ],
+    "ok": false,
+    "skills_total": 4,
+    "source_links_total": 40,
+    "topic_skills": 3,
+    "warnings": []
+  }
+}

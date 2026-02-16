@@ -1,0 +1,13 @@
+{
+  "core_skills": [
+    "xtb-build-and-install",
+    "xtb-xcontrol-7",
+    "xtb-inputs-and-modeling"
+  ],
+  "evidence_dir": "skills/.evidence",
+  "files": [
+    "skills/.evidence/xtb-build-and-install.md",
+    "skills/.evidence/xtb-xcontrol-7.md",
+    "skills/.evidence/xtb-inputs-and-modeling.md"
+  ]
+}
